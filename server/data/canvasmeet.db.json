@@ -1,0 +1,367 @@
+{
+  "users": {
+    "usr_tdj1bwm6i": {
+      "id": "usr_tdj1bwm6i",
+      "name": "Priya Sharma",
+      "email": "priya@canvasmeet.io",
+      "password_hash": "$2b$10$k/KjVituRGDvYEg2Zop/n.mLH9rQdnwYyGQEx9ky5If2Xhdur9N.e",
+      "avatar_color": "#d97706",
+      "created_at": "2026-09-07T14:01:04.406Z"
+    },
+    "usr_4rrnvx5x5": {
+      "id": "usr_4rrnvx5x5",
+      "name": "Jashu",
+      "email": "231fa04c60@gmail.com",
+      "password_hash": "$2b$10$fBmX831cSbtPYgu7neKfLua/31uixXPkfIh9EIchSwpor1VSClVia",
+      "avatar_color": "#7c3aed",
+      "created_at": "2026-09-07T14:15:36.060Z"
+    },
+    "usr_khyh64nhv": {
+      "id": "usr_khyh64nhv",
+      "name": "Jashu",
+      "email": "231fa04c61@gmail.com",
+      "password_hash": "$2b$10$cRb3U8gLaBle/4qIvndEveAHwAL7vR1KIWRwrahe.JnqstzLWXInO",
+      "avatar_color": "#db2777",
+      "created_at": "2026-09-07T14:58:17.142Z"
+    }
+  },
+  "rooms": {
+    "product-launch-beta": {
+      "id": "product-launch-beta",
+      "name": "Product Launch Beta",
+      "topic": "Mobile Beta, Design & Backend Architecture",
+      "created_by": "usr_tdj1bwm6i",
+      "created_at": "2026-09-07T14:01:04.436Z"
+    },
+    "jashu": {
+      "id": "jashu",
+      "name": "JAshu",
+      "topic": "",
+      "created_by": "usr_4rrnvx5x5",
+      "created_at": "2026-09-07T14:31:44.765Z"
+    }
+  },
+  "canvas_states": {
+    "jashu": {
+      "room_id": "jashu",
+      "nodes": [
+        {
+          "id": "node-goal-h3ac4w9",
+          "type": "Goal",
+          "position": {
+            "x": 80,
+            "y": 80
+          },
+          "data": {
+            "title": "Product & Project Objective",
+            "body": "Align team on objectives, deliverable timelines, and key milestones.",
+            "status": "In Progress"
+          },
+          "width": 270,
+          "height": 115,
+          "positionAbsolute": {
+            "x": 80,
+            "y": 80
+          }
+        },
+        {
+          "id": "node-dec-m5m8htf",
+          "type": "Decision",
+          "position": {
+            "x": 410.5643863875781,
+            "y": 279.6669027252266
+          },
+          "data": {
+            "title": "Target Architecture & Milestones",
+            "body": "To back everywhere as well",
+            "status": "Approved"
+          },
+          "width": 270,
+          "height": 98,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 410.5643863875781,
+            "y": 279.6669027252266
+          },
+          "dragging": false
+        },
+        {
+          "id": "node-task-la9m2wy",
+          "type": "Task",
+          "position": {
+            "x": 768,
+            "y": -464
+          },
+          "data": {
+            "title": "Action Item: Finalize execution roadmap",
+            "body": "Break down discussion points into assignable work packages.",
+            "priority": "High",
+            "status": "To Do"
+          },
+          "width": 270,
+          "height": 158,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 768,
+            "y": -464
+          },
+          "dragging": false
+        },
+        {
+          "id": "node-img-rtwaznn",
+          "type": "Image",
+          "position": {
+            "x": 972.0390337969804,
+            "y": -82.83097935315254
+          },
+          "data": {
+            "title": "Pasted Screenshot",
+            "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAGkCAYAAABn4ui6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAABk0SURBVHhe7Zx5lFXFnce/Vfe93jeaTWhBGtyQzURGY0+ijSEHozmYxBhAwnEW0TmZzGQ1LtkXjY7OxMw4cQGXDONh0bigssgkgFEUo4lG0SSCLRIQmq33/d2aP35Vd+vf6wUeKOT3Oeed7r63bt2qT/2qbr1X9VqNHlZmAAXAwBgfSikAgDEm+N1hDAAowCho7QHKt8czABC7lv5OAwaACvPWWsEYd40CjEdpNWAM5Qe4n5Sn77ty6eA4YGDgQyFeRthrlFbwM5SP0grGN9CeBkxYPmMMoBQUVR9K27pBUdlcZpRIUXmNsRWgigCA53nQngKUPQBAaw/a0wiPEMZkbDoDFclPKQ1AU57KWGnxq4OCR2THjhsDBQVj70o/qTK+MfAzkQb2KY2f8W0Zwvu5xjfG2HQKWivKGopOah0RE0FB0w39HhiTgTHhDQAF5xexSlCEhD8B3/eRyWSC6yg9RUmywJSFgQEd823l6Bp7bSRSwrLQMT+Sj9YUZS5vrTVFlJVG+VHU6uA6G1Z+xofx/UhCW2jb2sExbaCUi4AMfN8PWgogqe4aihQ6Ri8b4vYcRY+CUtpGUTw6tD1G3crYFxFUUmmbH11rTFwYlQ+2C4YRRuk1lEoF12tEMo4mpL/tUeND2W4ABJbiqQzoZk6uofS+T+MNpYmHLeEq6hLZVvb9oAu7CpFMiioqV2859Dug4AFGwxgVjEWxNH6YL0Fjl+/70G4AdC9Y08lXFPeXqyTdzL18GBhopaCVDsKWLnTRF5estY6MUYYqoWhQDO6vFJTyAKXgpbww/G3ZohUGXMAaugYAoCO/K2idgtap4JyxgrTWseGcemNEDCKVDl7URkFLurSuK8C2ZlykohYzNo2LKPt7NNqMy89JdxFhK62zSHB/G9DgrrWyefvBQ8LhGsoV0Rj3FNIwxkC7AhujYHwv/N3mpBQ93oKocfI0VTJZOIXocUWtbjwo5UGplGtCl4tTbCvtIiieX1Sw7wN+BkEZ3f1T6RSVMyJZax35Oxr1xo6D1LWN6YEx3YAd+zRsxekkjR/uSRCQME3QNfGIsGfcMUU3h6KnFY0f4XVOnPEVKHopvYnMkaIVj5Yp2mh0IFJOOy65iKTBO54+zIsayP1pIyU8AZUJco9WNlood1xlEYJY+uAIlJ3ARSdmJIEagMYIl2cYqYjdx7eTPkP52IEYdmCm3zVgFHw/g0ymi8Yqo4L8fZ8iRGtNE1BQt6EXRZKmjOzLFioYHJ0A+9PzvHgExVq8d+vFxblHOqA1oD0Fz0vD8/Lg6XSi27iKJwgeeoYqk+hacPdTLo2NMuXb+RX1Ake0kbWm8YQixWZAeZGtkN4R4/52GSCoOBnvjU1vh1XfN/B9wJXNNYoCjWf0lIiMYZGGUVDw7FOHGi4+37A52ijQdvZNEeIaWnsuQtycyNbdDszGBPMUN1ewg1eYP4UlgrrFIiMOdQUXxqE0m9bA9ifb1sH8w943nlOQJvl3KIrefykoW1HXIAa+nUwaY4LZugm6aLzRnZRAjgK0S0IFsG/sXMu4FjEmmAj5Puzznmwbo4Lnv9Jh10uK8zzPtkbYpXw/A+MDvok/NpWdbgcVCJ5mGpmMCd4mUMXdQE2hZ+DkR6KZvNN9fI8i1RibjN6D0TzF0PzF3TxaibClo9Pj7ARTfPvG0d3MPfeVfacLOxnLZEi+e6dNXTfagpEoMcaGebRLOfFc2f2gK7ju4AQqeJFIofN0PU1gXeRql8jz6ILkRW6K7Eb+wD7oXaq7hsYD+qkSM1ljwjdgiDZCIE9BaRfmmeCjCHrvREKoRd29XblcGUO0dhWPvmh2TJGVCbqLexoqTd1XKY+eTHTatUwyMwQ/XeXdIKbsGz7XSs6lthO96McNsDPgMK3Ny9N25gnAPk3oV8rf025aTvnHG812Fzfvc2W294g2Cuw93TzJRa89Y+c1NKYYN09xp13G9MyGzYRaLdqN3OcT4Y3CCrvCRB+XbqyJV4hazfd7aFzJhGFMclw3M5H00a5Mcx+lKWpd2Y19p0/XhOXUWtsnkQ/t0Ucg1Fh2bDEIPhax85RwIHOt6yZVrnVchYyh+Qyh7CBLb/4AH5lMNxU++HCJPvXy7TvQIKQiog18QGUiXcWFdhwX9rGyBI3j0kQaI/IoDuoJA+P7sYgnaAxUStN7H0f0w6PkjR3RArjCG2PgGz/o55QkQ4/GSOUUxWcYTcF8w7ch7F4GKjYmRcsQRkevd9pWmNI0aNqZEZQK7xnvOq4MHpRKQ+s0PC8NVZifjtf6WCPSRtHm6pu+U8ZHo2MRFyzuYZYDjn0pg6bvKMHxKCUSOIfMcSclO24Q75/jS8rhhEeE40sKy8AjxHGcSxmcDEcgpbZ2Bra+XYenVq+Jp+iHO++6G1vfrkNt7YzkqQHz8C8fxauvbcGjj63EvgMN+MY13wQAzJp1Id55dwceefTx5CVZUQCuWng13tn+F3zr299Jnh4Q73ukzJk7F2dNPwu/fPgh3HXnz9HS0oxZF14IALj0ssuQSqWwfPnS5GWWaNcIZ8SLFt2D3738Mi677PM4+ZRTEtf0T1Ypq9asRVNLG1rbO/G7V/6A2toZmDfvcrz5p7fQ2t6J3Xv2Ys7cuQCAwoJC/Pyuu9Ha3ok//nkrZs26sFcE/e73r7JROGPGBejo6MSaNauxdu0abNiwAWdMPANXX/1POO+88/Hi5hehtcYfXn8Dre2daGppw+q1T2PixIm4fP587Ni5E9/93vcBAHfedRfe2laH82trse7ptagYMgQzPz4zect+ySrlFw/cj4mnnYL5l89FZeUQXPLpT2Pe/Pno7OzEqSePxwkjh2P5smUAgOKSEjz26CP4uysWoLi4CJdedlkyu6ycetppeO+9XXhx82YAwNIHH0RXdxf+4R+vRGFhATZu3IBrr7sBPd3dmFF7Hv7zZ7fj7LPPwbXX35DMKsabf3wT3d3dmDR5cvJUv7BSSktLce65NXju+Rdw730PYNiw4SgoKMC2rVsxduxYLFv+EC6/fH6Qft++fXh67Vo8tGIF9tbvRVVVlT3T/0BXUV6B9vb24O+1a9dg48aNmDxlCl5+6WXs3VuP0aNGYfPmF/Di5s34xQP3Y9euXTj1lFNj+STZuGEDmhobMXLkCclT/RJI8TxanwWAhVddjc9eein++447cOlnPo3du98DAHz1K1/GD77/PRSXlOBn/3VHMCDmmre3bUNrSwteeeX3yVPYvXs3enp6kodzioZ98nzu859HeXkF3tiyBcXFxfB9H+/t2oXaGTNQWTk0uOBnt/8U3/7W9WhubsK4ceOiecVoaGhAcVERPvThD+OL//wljBo1KnI2HBQbGhtQWFgYORdn69at2Ld/P8455yM4+5xzcO111+PEE0/E5s0voLGhAb7v4/TTJ+LcmnMxffrfBNedX1uLsvJy7Nu3N5bfQNAAsPi++/CFLyzAb3/7Iu67dzF+88wzaGhoxF33LMLceZejva0NAPDY4yvR2t6J5Ssexv59+7FixfJkfgH/84sH8M477+DHN96Ea775TbR3dCSTAAD+/Kc/4YQTRmH69OnJUwCAFzdvxi0334Tyigqs3/AMvvQv/4qNGzbgu9/5Np566kmsXbMGF118MZ5atSb2Ocnpp09Efn4e3nrrrVh+A+Eof57Se4yZM3cubr7l33D/fffihz+gp8ihEclbAY888hgmTJiAz33us9g6SDHsQHs0Wb5sGV5+6SXMnn0JJk6cmDw9CMK2vWrhVfjwWWfhoYdWDFoIPgiRAtjDsVIcapFs/vEfg+Z9j5QjxaEKwQdXyuFU6fA5ilLe34oOhqMo5dhBjR5WalRikVrbDSxIrLmYyJpNb1wk0FIqzRncKyS+7kJrQkqlmF1O0WsN7fJ2mwftli1D+/cAZeBnjN1XZ0dt5Rb0abEuni8t6ofLrYburehvDVfxYFVNBQtYyYUwh1uQRiwNVYLyCtMau7juiC+m2b9Vxm5Wjp+jStH6tLuh1nZLh7IVV7TQrzXtsopWlhbUQrG0cOcW6dwWeXvW2DUSYyhSgjOKdi6byC6lKMZENv2HByP7UxFbVw6XQW1juFaMRIxbIVR2wR6Gto8bQ0lpaTO6wdgu4EPB+BlAKWh7f9/3gy1obscl7SSgdWWlNIxPe6qS0erKBNju4wroEiaFUKXjy6nRdNE1YGoRd9ylpSiKorWC7xuqhK1AtDFU8O0NWvON7tx2JMtJUKO5b5go5fbphY3lyFZnjWDjChWIChLuEnDHYy+qepBJuD2MMnc3CG/kZFH40kI8bcyjPXAGsNvAAyl2iwaloX0xblE8eg9HeE8fRlE+VB+7AdCmcyJc3aL3dKhRw8oMYGLtSEW0v0cvUNGtu2GaICJUuE3DGBPZ7BtikntD7NYPqrz9SMDubDLGDirJiOCOJY4rZce9ZDpbB7h62PK4OhsA6kNTL2Ry/+tGVQ6pEikJsk06/qoRKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUhvft0/x0Kh8FhSUoyCtGOi8fnk4Ha86+7yPjd6O7qxMdXa3oaG9Bd09nMosjxlGXUlw8BKXFlUil8tDV3Yaurg5093Tbr+6GC1mel0Y6lUZeXgHy0kXo6elCc+sBtLYeTGaZc46alKKiMlSUj4Sf8dHW0YTOTtqGOlDy84tQVFAG7Wk0NO5BW1tTMknOOCpSKodUobCgBM2tBwYtI0l+fhFKiyvR3tGCAwd3Jk/nhCMqxfNSGDH0JGRMDxqb9kdWoQ8XhfKyofBUCvX7tyOTyc22dFfeI/b08bwURo6oRld3Jxqb9uVQCAAYNDbtQ1d3J0aOqIbnuf/XduhEy3vEpIwYehI6O9rR0nbkBsaWtoPo7GjHiKEnJU8Nmmh5j4iUyiFVyJieIyrE0dJ2EBnTg8oh7us0gydZ3pxLKSoqQ2FBiR1Djg6NTftRWFCCoqKy5Kl+4cqbcykV5SPR3Hpg0GOI1hrjx1dj/PjqPnZgZsOgufUAKspHJk/0C1fewd69T4qLh8DP+IN+7E6bOgXrf70WT699Ak+vfQLrf70W06ZOSSbrk87ONvgZH8XFQ5KnspKtvDmVUlpcibaOwU+qrr3u66isrMCtt92OW2+7HZWVFbj2uq8nk/VLW0cTSosrk4ezkq28OZOSTuUjlcrrZX0gTJk8CU88sQp3370Yd9+9GE88sQqTJ09KJuuXzs42pFJ5SKfyk6d60Vd5cyaloLAEXd29bzAQCgsLsXvPnuDv3Xv2oKiPr9D1RVd3GwoKS5KHe9FXeXMnJa8YXV38V+KOJl1dHSjIK04e7kVf5c2ZlHRePrp7upOHs1JVNQrpdP8z0XQ6haqq6Jcy+6a7pxvpvAF0nz7KmzMpnk4jk+FvwrF69UpcccWC5OFeXHHFAqxevTJ5OCuZTDc8nU4e7kVf5c2ZlOg3PwZCUWEhior6HzeKigoHNb64ndn90Vd5+7/6CLF37z4MG0bfd25oaEB15DvO1ePGoaGhAQAwYsRw1NcP/rvFh0POpLg9/QPljTfexORJ9Nh97rkXMHPmDNx44/dx809+hJkzZ+DZZ58HAJw5dSpe37IlcXV23Bcd+qOv8uZMSsbvhuf135cdy5c/jKlTJ+OCGbX48Y034//W/RqfmHkBams/hjVr1uHHN96Ciy+ahdMnnoYlS7L9q5DeeF4aGZ8fK6L0Vd6cfcg0fOhYdPd0or2jJXkqK/cuvhPTpk3BV792LX7zm+di584776P46X/cgs0vvoQvfvHLsXN9UVhQgnQqH3v3v5s8FaOv8uZMSmnpUPtuc1/yVFaGDx+Gf7/1J6j523Px/POb0dndBU9rpLSHc2s+guee3YSvfeN67N8/8Hfc5WXD0N7Rgubmvq/pq7w5k5JO5WPkiPH9thDHJZd8CrNmfQIzzv8YAOBX6zdi3bpf4fHHn0wm7ZfhQ8diT/3b/S6J9FXenEkBgBNGTDikT+odD/7v/QCA+V/4++SpAeE+8d9dvy15iiVbeXM20AJAc+sBFBUM/oOeXFFUUGY/GxkY2cqb00gBgNGjTkFLa0Mv+wNhzJgTAQA7dvwleapf8vOLUFJcgV3vDe4fPnDlzWmkAEBD4x77mQY/B+iLHTv+ckhCAIXS4ko0NIbvtAcKV96cS2lra0J7RwvKy8L/znOkKS8bivaOlkNaNeTKm3MpAHDg4E54KoWSooF/NHiolBQNgadSh7VamCzvEZECAPX7tyO/oPCIiikpGoL8gkLU79+ePDVoouU9YlIymR7sqa9DXjof5WXDDmmMyY5Cedkw5KXzsae+LifLptHy5vzpwyEL7FmQrRh9IJt2+kC2dx1jHLGnz7GMSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMKiTx58tn+YnkCUOBuk+DCKFQaQwiBQGkcIgUhhECoNIYRApDCKFQaQwiBQGkcIgUhhECkP4ecpJF2NBzWigeQtWPrkJjUGSSbhgXg2q0ITXVi3HK+EJy0ic+anZmFIKoFcad22UZBqg+ryF+GiQKH6+fNoczD4j/u2tljdW4tFXo9/tyV4G7noAwM5NWPIMfd85mUZXR9IdEuUTUF0KtDQ3AShDZUUyAWxBF2HlG5RmysdqUA7YypCQnZsWYcnSTdiJMky56GL0KtfOTViyagtaAJScMT1+vo8yNL66HEuWunvbfJYuCoRUn7cQs88oQ8sbK7Fk6Uq81gzoM6cN/v8YRSkfNwYlaELdazvQAqDqpP7/GUzLjm0UibYywC7UbQeALajbCQCjMZhyHUoZiEmorgKAJtS9swfAHtTtaDrcMWUkqseUAWhB4/ZtqGsGUDWudyujDFMuohYJCwCgYghKAKD5INzXIQ80ZvkiQlUNFlw0CSUAdm56CnXBiYGWgaG83EZsCxptd2tsaDlMKUFLj8ZH57k+PRrVvf4XHXWfJZt2WUG2ezQcRAsAlA6B+09KleVM/weF/bPcN1kGXAaGxkY7dpagnOygvKIE+pXYgDU4qqdRy1F/dJUeRPg22pYNKuHCeRe4ctVtt/lPcWPS4ZbBddcyVI8bGUSdDsPQUjoJs+ctxIJ5c3CmuzMQdIEF8xbiM9NGRioANDbYCriW7xW+9tqa0TZqXPjvwStP0uBWVbMQC+bVoAq78OzSaPeIsP0d7ASV8ayYxIGUgafumUV4didQcsZsLJg3G1NKm2SJg+PwxpTjFJHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMMSk3Lq+Dutvix4ZGFctexVbli1MHj5mkUhhECkMWaVctexV7Hi3zr7W4VZ34rZ14fHXH8RVwRUTsPz15PGFWP76q1h+pUuT/PuDSVYp98ydhjFjqzFmbDV+tGkELlq2kCp14Qhs+iEdHzN5Pu6x6ctqPgncXo0xY2/CJtRg3iGMTR8UskoBbsZ6GxHfqSlD2cgJABbh3b1lqPluJHIsTZvuwJzFALAIv3q9CSNOPHYH3oSUJtT/EVbIJ1HvImLF1iDFNTOqMWbsy5jeq/scP0Sk3IzpE+rx7mIAV47BCNjfAdx61slhMgDAdZgx9iZswmR8vM/xgSJr8kwbNVfWYnKWVdEPEpoGvzrseHcOsOITuAYAFs/Hqm0nY67tPtPhIsWlrcOOd2/A5Nddl8nONQ9uAmpuoGu+MgL1WdbPP0jICiFDHwPtXy8ihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRAqDSGEQKQwihUGkMIgUBpHCIFIYRArD/wNXOGtILt7vCQAAAABJRU5ErkJggg==",
+            "caption": "Pasted from clipboard (Snipping Tool / Print Screen)",
+            "status": "Image",
+            "width": 160,
+            "height": 747,
+            "prevWidth": 160,
+            "prevHeight": 747
+          },
+          "width": 160,
+          "height": 747,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 972.0390337969804,
+            "y": -82.83097935315254
+          },
+          "dragging": false,
+          "style": {
+            "width": 160,
+            "height": 747
+          },
+          "resizing": false
+        },
+        {
+          "id": "node-task-k79o6ne",
+          "type": "Task",
+          "position": {
+            "x": 120,
+            "y": 300
+          },
+          "data": {
+            "title": "Sprint Action Item",
+            "body": "Double click to configure details for this task.",
+            "status": "Open",
+            "priority": "High",
+            "owner": "Jashu"
+          },
+          "width": 270,
+          "height": 126,
+          "positionAbsolute": {
+            "x": 120,
+            "y": 300
+          }
+        },
+        {
+          "id": "node-decision-7wlvs1h",
+          "type": "Decision",
+          "position": {
+            "x": 400,
+            "y": 300
+          },
+          "data": {
+            "title": "Architectural Decision",
+            "body": "Double click to configure details for this decision.",
+            "status": "Approved"
+          },
+          "width": 270,
+          "height": 98,
+          "positionAbsolute": {
+            "x": 400,
+            "y": 300
+          }
+        },
+        {
+          "id": "node-sticky-e3dng48",
+          "type": "Sticky",
+          "position": {
+            "x": 1697.7435261747542,
+            "y": -93.7275182733349
+          },
+          "style": {
+            "width": 220,
+            "height": 180
+          },
+          "data": {
+            "title": "Sticky note",
+            "body": ""
+          },
+          "width": 220,
+          "height": 180,
+          "positionAbsolute": {
+            "x": 1697.7435261747542,
+            "y": -93.7275182733349
+          }
+        },
+        {
+          "id": "node-text-a3qbs98",
+          "type": "Text",
+          "position": {
+            "x": 2137.151150326733,
+            "y": -161.6552669345104
+          },
+          "style": {
+            "width": 220,
+            "height": 72
+          },
+          "data": {
+            "title": "Text label"
+          },
+          "width": 220,
+          "height": 72,
+          "positionAbsolute": {
+            "x": 2137.151150326733,
+            "y": -161.6552669345104
+          }
+        },
+        {
+          "id": "node-text-k276627",
+          "type": "Text",
+          "position": {
+            "x": 2181.72873538563,
+            "y": -108.58671329296703
+          },
+          "style": {
+            "width": 220,
+            "height": 72
+          },
+          "data": {
+            "title": "Text label"
+          },
+          "width": 220,
+          "height": 72,
+          "positionAbsolute": {
+            "x": 2181.72873538563,
+            "y": -108.58671329296703
+          }
+        },
+        {
+          "id": "node-shape-i9ezyhk",
+          "type": "Shape",
+          "position": {
+            "x": 2832.0058403154935,
+            "y": -999.8950196252446
+          },
+          "style": {
+            "width": 140,
+            "height": 140
+          },
+          "data": {
+            "title": "circle",
+            "shape": "circle",
+            "fill": "#f43f5e",
+            "width": 140,
+            "height": 140
+          },
+          "width": 140,
+          "height": 140,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 2832.0058403154935,
+            "y": -999.8950196252446
+          },
+          "dragging": false
+        },
+        {
+          "id": "node-shape-4y93y4d",
+          "type": "Shape",
+          "position": {
+            "x": 2647.339173648827,
+            "y": -995.8950196252447
+          },
+          "style": {
+            "width": 140,
+            "height": 140
+          },
+          "data": {
+            "title": "circle",
+            "shape": "circle",
+            "fill": "#f43f5e",
+            "width": 140,
+            "height": 140
+          },
+          "width": 140,
+          "height": 140,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 2647.339173648827,
+            "y": -995.8950196252447
+          },
+          "dragging": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge-0bhbrg3",
+          "source": "node-goal-h3ac4w9",
+          "target": "node-dec-m5m8htf",
+          "label": "guides",
+          "type": "smoothstep",
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "style": {
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "edge-s6a09s8",
+          "source": "node-dec-m5m8htf",
+          "target": "node-task-la9m2wy",
+          "label": "creates",
+          "type": "smoothstep",
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "style": {
+            "strokeWidth": 2
+          }
+        }
+      ],
+      "updated_at": "2026-09-07T15:26:56.832Z"
+    }
+  },
+  "messages": [
+    {
+      "id": "msg-1788790560400-88or",
+      "room_id": "jashu",
+      "user_id": "usr_4rrnvx5x5",
+      "sender_name": "Jashu",
+      "body": "We should launch the mobile beta next Friday. Priya owns design and UX polish, Sam owns backend infrastructure. The biggest risk is onboarding latency.",
+      "type": "chat",
+      "created_at": "2026-09-07T14:16:00.400Z"
+    },
+    {
+      "id": "msg-1788790561218-mm1u",
+      "room_id": "jashu",
+      "sender_name": "Canvas Copilot",
+      "body": "Synthesized 5 key visual workspace cards (Goal, Decision, Task, Task, Risk) with 4 relationships from team discussion.",
+      "type": "ai",
+      "created_at": "2026-09-07T14:16:01.218Z"
+    },
+    {
+      "id": "msg-1788790629524-42xh",
+      "room_id": "jashu",
+      "user_id": "usr_4rrnvx5x5",
+      "sender_name": "Jashu",
+      "body": "To back everywhere as well",
+      "type": "chat",
+      "created_at": "2026-09-07T14:17:09.524Z"
+    },
+    {
+      "id": "msg-1788790630107-7xh8",
+      "room_id": "jashu",
+      "sender_name": "Canvas Copilot",
+      "body": "Synthesized 3 key visual workspace cards (Goal, Decision, Task) with 2 relationships from team discussion.",
+      "type": "ai",
+      "created_at": "2026-09-07T14:17:10.107Z"
+    }
+  ]
+}
