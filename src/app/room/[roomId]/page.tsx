@@ -28,18 +28,14 @@ export default function RoomPage() {
   const router = useRouter();
   const roomId = params.roomId as string;
 
-  const [currentUser, setCurrentUser] = useState<User>(() => {
-    if (typeof window !== 'undefined') {
-      try {
-        const stored = localStorage.getItem('echo-user');
-        if (stored) {
-          const u = JSON.parse(stored);
-          const userName = (u.name && u.name !== 'Anonymous' && u.name !== 'anon') ? u.name : 'Jaswanth';
-          return { ...u, name: userName, micOn: true, cameraOn: true, isOwner: true };
-        }
-      } catch {}
-    }
-    return { id: 'usr-jaswanth', name: 'Jaswanth', color: '#7c3aed', micOn: true, cameraOn: true, isOwner: true };
+  const [isMounted, setIsMounted] = useState(false);
+  const [currentUser, setCurrentUser] = useState<User>({
+    id: 'usr-default',
+    name: 'Jaswanth',
+    color: '#7c3aed',
+    micOn: true,
+    cameraOn: true,
+    isOwner: true,
   });
   const [remoteUsers, setRemoteUsers] = useState<User[]>([]);
   const [remoteCursors, setRemoteCursors] = useState<RemoteCursor[]>([]);
@@ -60,7 +56,7 @@ export default function RoomPage() {
   const speech = useSpeechRecognition();
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    setIsMounted(true);
     try {
       const stored = localStorage.getItem('echo-user');
       if (stored) {
@@ -417,7 +413,7 @@ export default function RoomPage() {
     router.push('/');
   }, [currentUser, remoteUsers, echoAI, roomId, socket, webrtc.localStream, showToast, router]);
 
-  if (!currentUser) {
+  if (!isMounted) {
     return (
       <div style={{ width: '100vw', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg-primary)' }}>
         <div style={{ color: 'var(--text-muted)', fontSize: '16px' }}>Loading workspace…</div>
