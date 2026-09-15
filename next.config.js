@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: '**' },
@@ -14,13 +13,11 @@ const nextConfig: NextConfig = {
     return config;
   },
   eslint: {
-    // Prevent ESLint warnings from failing production build on Vercel
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // Typecheck was already verified locally with exit code 0
     ignoreBuildErrors: false,
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
