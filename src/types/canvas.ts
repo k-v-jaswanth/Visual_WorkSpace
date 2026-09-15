@@ -6,7 +6,8 @@ export type NodeType =
   | 'transcript'
   | 'task'
   | 'sticky'
-  | 'connector';
+  | 'connector'
+  | 'drawing';
 
 export interface Position {
   x: number;
@@ -104,4 +105,10 @@ export interface TaskNodeData {
 export interface StickyNoteData {
   content: string;
   color: string;
+}
+
+export interface DrawingNodeData {
+  points: Array<{ x: number; y: number }>;
+  color: string;
+  strokeWidth: number;
 }

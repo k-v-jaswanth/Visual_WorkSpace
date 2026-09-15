@@ -17,6 +17,7 @@ const NODE_TEMPLATES: Record<NodeType, NodeTemplate> = {
   transcript: { type: 'transcript', size: { width: 360, height: 100 }, defaultData: { text: '', speaker: '' }, color: '#0f172a' },
   task: { type: 'task', size: { width: 260, height: 110 }, defaultData: { title: '', status: 'todo', priority: 'medium' }, color: '#10b981' },
   connector: { type: 'connector', size: { width: 0, height: 0 }, defaultData: {} },
+  drawing: { type: 'drawing', size: { width: 0, height: 0 }, defaultData: { points: [], color: '#1e293b', strokeWidth: 4 } },
 };
 
 export function createNode(
@@ -81,4 +82,32 @@ export function autoLayout(nodes: CanvasNode[], startX = 100, startY = 100, cols
       y: startY + Math.floor(i / cols) * gapY,
     },
   }));
+}
+
+export function createDrawingNode(
+  points: Array<{ x: number; y: number }>,
+  color = '#1e293b',
+  strokeWidth = 4,
+  createdBy = 'user'
+): CanvasNode {
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  points.forEach((p) => {
+    if (p.x < minX) minX = p.x;
+    if (p.y < minY) minY = p.y;
+    if (p.x > maxX) maxX = p.x;
+    if (p.y > maxY) maxY = p.y;
+  });
+  if (minX === Infinity) { minX = 0; minY = 0; maxX = 100; maxY = 100; }
+
+  return {
+    id: generateId(),
+    type: 'drawing',
+    position: { x: minX, y: minY },
+    size: { width: Math.max(20, maxX - minX), height: Math.max(20, maxY - minY) },
+    data: { points, color, strokeWidth },
+    createdAt: Date.now(),
+    createdBy,
+    color,
+    zIndex: 10,
+  };
 }

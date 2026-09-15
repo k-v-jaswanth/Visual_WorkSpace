@@ -36,6 +36,7 @@ export interface SocketEvents {
   'room:join': { roomId: string; user: User };
   'room:leave': { userId: string };
   'room:users': { users: User[] };
+  'room:user-update': Partial<User> & { userId: string };
   'room:mode-change': { mode: import('./room').RoomMode };
   'room:follow-me': { userId: string; viewport: import('./canvas').Viewport };
   'room:follow-stop': { userId: string };
